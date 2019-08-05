@@ -1,0 +1,8 @@
+.regular-wrapper {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 20vh;
+  background-color: darkgray;
+  z-index: 2;
+  position: relative;
+}

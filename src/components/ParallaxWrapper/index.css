@@ -1,0 +1,28 @@
+.parallax-wrapper {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 20vh;
+  box-sizing: border-box;
+  transform-style: preserve-3d;
+}
+
+.parallax-wrapper::before {
+  content: "";
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  transform: translateZ(-1px) scale(2);
+}
+
+#parallax-1::before {
+  background-image: url("../../features/img/night-sky2.jpg");
+  background-size: cover;
+}
+
+#parallax-2::before {
+  background-image: url("../../features/img/night-sky1.jpg");
+  background-size: cover;
+}
